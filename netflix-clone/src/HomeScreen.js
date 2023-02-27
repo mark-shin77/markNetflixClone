@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from './Banner';
 import "./HomeScreen.css";
 import Nav from './Nav';
+import Row from './Row';
 
 function HomeScreen() {
   return (
@@ -11,6 +12,12 @@ function HomeScreen() {
         {/* Banner */}
         <Banner/>
         {/* Rows */}
+        <Row />
+        <Row />
+        <Row />
+        <Row />
+        <Row />
+        <Row />
     </div>
   )
 }
